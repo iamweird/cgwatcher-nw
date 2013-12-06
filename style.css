@@ -1,0 +1,12 @@
+body {
+  font: 120%/150% Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.stats {
+  width: 100%;
+}
+
+.stat-label {
+  text-align: right;
+  font-weight: bold;
+}

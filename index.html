@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CGWatcher</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <table class="stats">
+      <tr class="stat">
+        <th class="stat-label">Temp.:&nbsp;</th>
+        <td id="temp-value" class="stat-value" data-template="{{temp}} &deg;C"></td>
+      </tr>
+      <tr class="stat">
+        <th class="stat-label">Fan:&nbsp;</th>
+        <td id="fan-value" class="stat-value" data-template="{{fan.speed}} ({{fan.percent}}%)"></td>
+      </tr>
+      <tr class="stat">
+        <th class="stat-label">Speed:&nbsp;</th>
+        <td id="speed-value" class="stat-value" data-template="{{speed}} kH/s"></td>
+      </tr>
+    </table>
+    <script src="markup.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

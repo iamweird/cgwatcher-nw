@@ -1,0 +1,18 @@
+{
+  "name": "CGWatcher",
+  "main": "index.html",
+  "window": {
+    "title": "CGWatcher",
+    "toolbar": false,
+    "frame": true,
+    "width": 220,
+    "height": 120,
+    "position": "mouse",
+    "min_width": 220,
+    "min_height": 120,
+    "max_width": 220,
+    "max_height": 120,
+    "always-on-top": true
+  },
+  "single-instance": true
+}
